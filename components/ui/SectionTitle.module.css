@@ -1,0 +1,18 @@
+.wrap {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+}
+
+.title {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  line-height: 1.7;
+}

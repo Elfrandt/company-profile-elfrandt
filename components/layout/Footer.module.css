@@ -1,0 +1,22 @@
+.footer {
+  margin-top: auto;
+  padding: 1.75rem 0;
+  background: var(--primary-soft);
+  color: var(--foreground);
+  font-size: 0.9rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .copyright {
+    flex-direction: column;
+    text-align: center;
+  }
+}

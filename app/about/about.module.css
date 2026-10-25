@@ -1,0 +1,36 @@
+.section {
+  padding: 3.5rem 0 4.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 1.75rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--primary-soft);
+}
+
+.emoji {
+  font-size: 2rem;
+}
+
+.card h3 {
+  margin: 0.75rem 0 0.5rem;
+  color: var(--primary);
+}
+
+.card p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
